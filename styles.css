@@ -27,7 +27,7 @@ ul{
     flex-direction: row;
     padding: 10px;
     color: #e5e7eb;
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-right:5%;
     gap:10%;
     
@@ -58,10 +58,10 @@ ul{
     text-align: left;
     border:1px solid #1F2937;
     text-overflow: ellipsis;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 .hero-text h2{
-    font-size: 4vw;
+    font-size: 2vw;
     margin: 0px ;
 }
 .hero-text button{
@@ -144,7 +144,7 @@ ul{
 .block p{
     text-align: center;
     max-width: 20vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 .call{
     background-color: #3882f6;
