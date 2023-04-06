@@ -24,6 +24,7 @@ ul{
     flex-direction: row;
     padding: 10px;
     color: #e5e7eb;
+    font-size: 2vw;
     
 }
 .hero{
@@ -31,12 +32,13 @@ ul{
     display:flex;
     justify-content: center;
     color: #e5e7eb;
-    padding:  60px 10%;
+    padding:  60px 5%;
     padding-top: 10px;
 }
 .hero img{
-    height: 160px;
-    width:290px;
+    height: auto;
+    width:60%;
+    max-width: 290px;
     background-color:#e5e7eb;
     border-radius:10px;
     border:1px solid #1F2937;
@@ -46,12 +48,15 @@ ul{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
     text-align: left;
     border:1px solid #1F2937;
     text-overflow: ellipsis;
+    font-size: 2vw;
 }
 .hero-text h2{
+    font-size: 4vw;
     margin: 0px ;
 }
 .hero-text button{
@@ -62,7 +67,7 @@ ul{
     padding:5px 15px;
     margin: 0px;
     height:fit-content;
-    
+    font-size: 2vw;
 
 }
 .why{
@@ -72,10 +77,11 @@ ul{
     padding: 0px;
     margin:0px;
     flex:1;
-    color:#1F2937
+    color:#1F2937;
 
 }
 .why h2{
+    font-size: 3vw;
     padding: 0px;
 }
 .why-container{
@@ -92,10 +98,11 @@ ul{
     margin:0px;
     flex:1;
     background-color: #e4daa1;
-    color:#1F2937
+    color:#1F2937;
 
 }
 .how h2{
+    font-size: 3vw;
     padding: 0px;
 }
 .how-container{
@@ -117,21 +124,23 @@ ul{
     border:1px solid #1F2937;
     background-color:#e5e7eb;
     margin: 0px;
-    width: 150px;
-    height: 150px; 
-
+    aspect-ratio: 1/1;
+    width:100%;
+    max-width:150px;   
+    
+   
 }
 .block p{
     text-align: center;
     max-width: 150px;
-    font-size: 12px;
+    font-size: 2vw;
 }
 .call{
     background-color: #3882f6;
     border-radius:5px;
     border:1px solid white;
     display: flex;
-    padding: 10px 80px;
+    padding: 5% 5%;
     justify-content: space-between;
     color:#e5e7eb;
 
@@ -139,16 +148,18 @@ ul{
 .message-block{
     display: flex;
     flex-direction: column;
-    padding-right: 100px;
+    padding-right: 10%;
 }
 
 .message-bold{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 2vw;
+    text-align: left;
 }
 
 .message{
-    font-size: 12px;
+    font-size: 2vw;
+    text-align: left;
 }
 .message-block p{
     margin: 0px;
@@ -159,18 +170,21 @@ ul{
     border-radius:5px;
     border:1px solid white;
     color: white;
-    padding:5px 15px;
+    padding:1vw 2vw;
     margin: 0px;
+    justify-self: flex-end;
     height:fit-content;
     align-self:center ;
+    font-size: 2vw;
     
 }
 .footer{
-    display:flex;
+    margin:0 10%;
     flex:0;
     align-content: stretch;
     justify-content: center;
-    padding:30px;
+    padding:5% 0;
+    
 }
 
 body{
@@ -191,17 +205,17 @@ body{
     /* font-weight: lighter; */
     /* align-items: center; */
     flex:0;
-    padding: 0px 200px;
+    padding: 0px 20%;
     justify-items: flex-end;
 }
 
 .quote{
     
-    font-size: 36px;
+    font-size: 4vw;
     font-style: italic;
     font-weight: 100;
     color: #1F2937;
-    padding-top:50px;
+    padding:10% 0;
     margin: 0px;
     text-align: center;
     flex:0;
@@ -210,9 +224,10 @@ body{
 
 .quoter{
     flex:0;
-    padding-bottom:50px;
+    padding-bottom:10%;
     /* margin-right: 300px; */
     text-align:right;
+    margin: 0%;
     font-weight: bold;
     color: #1F2937;
     
