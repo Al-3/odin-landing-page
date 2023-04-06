@@ -165,12 +165,12 @@ ul{
 
 .message-bold{
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 1.2vw;
     text-align: left;
 }
 
 .message{
-    font-size: 2vw;
+    font-size: 1vw;
     text-align: left;
 }
 .message-block p{
@@ -188,7 +188,7 @@ ul{
     justify-self: flex-end;
     height:fit-content;
     align-self:center ;
-    font-size: 2vw;
+    font-size: 1vw;
     
 }
 .footer{
