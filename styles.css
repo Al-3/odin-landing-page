@@ -45,7 +45,7 @@ ul{
     width:60%;
     max-width: 30vw;
     background-color:#e5e7eb;
-    border-radius:5px;
+    border-radius:1vw;
     border:1px solid #1F2937;
     align-self: center;
 }
@@ -66,13 +66,16 @@ ul{
 }
 .hero-text button{
     background-color: #3882f6;
-    border-radius:7px;
+    border-radius:0.5vw;
     border:1px solid #1F2937;
     color: white;
-    padding:10px 20px;
+    padding:2% 5%;
     margin: 0px;
+    align-content: center;
     height:fit-content;
     font-size: 1.5vw;
+    
+    
 
 }
 .why{
@@ -126,7 +129,7 @@ ul{
 .block img{
     display: flex;
     justify-content: space-evenly;
-    border-radius:5px;
+    border-radius:1vw;
     border:1px solid #1F2937;
     background-color:#e5e7eb;
     margin: 0px;
@@ -145,7 +148,7 @@ ul{
 }
 .call{
     background-color: #3882f6;
-    border-radius:10px;
+    border-radius:1vw;
     border:1px solid white;
     display: flex;
     padding: 2% 5%;
@@ -177,7 +180,7 @@ ul{
 }
 .footer button{
     background-color: #3882f6;
-    border-radius:10px;
+    border-radius:0.5vw;
     border:1px solid white;
     color: white;
     padding:1vw 2vw;
