@@ -120,6 +120,7 @@ ul{
     display:flex;
     flex-direction: column;
     padding: 2% 0;
+    align-items: center;
     background-color: #e4daa1;
     color:#1F2937;
 }
@@ -132,7 +133,7 @@ ul{
 .how-container{
     display: flex;
     margin: 1% 10%;
-    padding: 2%;
+    padding: 2% 0;
     justify-content: center;
     gap:2%;
 }
